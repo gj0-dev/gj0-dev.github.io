@@ -1,8 +1,12 @@
-body{
+body {
   background-color: #e6055c;
   font-family: 'Roboto', sans-serif;
 }
 
-hr{
-  color: #9c88c2;
+h3 {
+  color: white;
+}
+
+input {
+  color: red;
 }
