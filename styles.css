@@ -10,3 +10,9 @@ h3 {
 input {
   color: red;
 }
+
+.me {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
