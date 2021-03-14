@@ -6,9 +6,6 @@ body {
   color: white
 }
 
-h1,
-h2,
-h3,
 label {
   color: white;
 }
@@ -17,4 +14,8 @@ label {
   width: 100px;
   height: 100px;
   padding: 10px;
+}
+
+h4 {
+  color: blueviolet;
 }
