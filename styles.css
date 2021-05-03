@@ -24,11 +24,15 @@ h4 {
 }
 
 .cert {
-    width: 400px;
-    height: 300px;
-    padding: 5px;
+  width: 400px;
+  height: 300px;
+  padding: 5px;
 }
 
-hr{
+hr {
   color: #84e22b;
+}
+
+ul {
+  list-style: square outside none;
 }
