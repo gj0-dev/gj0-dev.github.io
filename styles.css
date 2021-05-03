@@ -23,7 +23,6 @@ h4 {
 }
 
 .cert {
-    width: 100%;
+    width: 50%;
     max-height: 75vh;
-    min-width: 0;
 }
