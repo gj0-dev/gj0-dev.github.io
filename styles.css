@@ -21,3 +21,9 @@ h2,
 h4 {
   color: blueviolet;
 }
+
+.cert {
+  width: 800px;
+  height: 600px;
+  padding: 10px;
+}
