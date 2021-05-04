@@ -11,6 +11,41 @@ body {
   padding: 16px;
 }
 
+#intro1 {
+  animation: fadeIn;
+  animation-duration: 0.7s;
+  animation-delay: 1s;
+  animation-fill-mode: backwards;
+}
+
+#intro2 {
+  animation: fadeIn;
+  animation-duration: 0.7s;
+  animation-delay: 1.7s;
+  animation-fill-mode: backwards;
+}
+
+#intro3 {
+  animation: fadeIn;
+  animation-duration: 0.7s;
+  animation-delay: 2.4s;
+  animation-fill-mode: backwards;
+}
+
+#bio {
+  animation: fadeIn;
+  animation-duration: 1.5s;
+  animation-delay: 3.1s;
+  animation-fill-mode: backwards;
+}
+
+#stackhead {
+  animation: fadeIn;
+  animation-duration: 0.3s;
+  animation-delay: 4s;
+  animation-fill-mode: backwards;
+}
+
 
 label {
   color: white;
@@ -40,8 +75,8 @@ hr {
   color: #84e22b;
 }
 
-ul {
-  list-style: square outside none;
+.stack {
+  list-style: circle outside none;
 }
 
 .namefont {
@@ -112,5 +147,100 @@ a:hover {
 
   100% {
     opacity: 1;
+  }
+}
+
+.stack li::marker {
+  animation: slideup;
+  animation-duration: 0.3s;
+  animation-fill-mode: backwards;
+}
+
+.stack li:nth-child(1)::marker {
+  animation-delay: 4.9s;
+}
+
+.stack li:nth-child(2)::marker {
+  animation-delay: 5.4s;
+}
+
+.stack li:nth-child(3)::marker {
+  animation-delay: 5.9s;
+}
+
+.stack li:nth-child(4)::marker {
+  animation-delay: 6.4s;
+}
+
+.stack li:nth-child(5)::marker {
+  animation-delay: 6.9s;
+}
+
+.stack li:nth-child(6)::marker {
+  animation-delay: 7.4s;
+}
+
+.stack li:nth-child(7)::marker {
+  animation-delay: 7.9s;
+}
+
+.li1 {
+  animation: fadeIn;
+  animation-duration: 0.5s;
+  animation-delay: 4.9s;
+  animation-fill-mode: backwards;
+}
+
+.li2 {
+  animation: fadeIn;
+  animation-duration: 0.5s;
+  animation-delay: 5.4s;
+  animation-fill-mode: backwards;
+}
+
+.li3 {
+  animation: fadeIn;
+  animation-duration: 0.5s;
+  animation-delay: 5.9s;
+  animation-fill-mode: backwards;
+}
+
+.li4 {
+  animation: fadeIn;
+  animation-duration: 0.5s;
+  animation-delay: 6.4s;
+  animation-fill-mode: backwards;
+}
+
+.li5 {
+  animation: fadeIn;
+  animation-duration: 0.5s;
+  animation-delay: 6.9s;
+  animation-fill-mode: backwards;
+}
+
+.li6 {
+  animation: fadeIn;
+  animation-duration: 0.5s;
+  animation-delay: 7.4s;
+  animation-fill-mode: backwards;
+}
+
+.li7 {
+  animation: fadeIn;
+  animation-duration: 0.5s;
+  animation-delay: 7.9s;
+  animation-fill-mode: backwards;
+}
+
+
+
+@keyframes example {
+  from {
+    font-size: 14px;
+  }
+
+  to {
+    font-size: 30px;
   }
 }
