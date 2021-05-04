@@ -38,5 +38,7 @@ ul {
 }
 
 .namefont{
- font-family: 'B612', sans-serif; 
+  font-family: 'B612', sans-serif;
+  font-weight: bold;
+
 }
