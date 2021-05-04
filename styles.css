@@ -36,3 +36,7 @@ hr {
 ul {
   list-style: square outside none;
 }
+
+.namefont{
+ font-family: 'B612', sans-serif; 
+}
