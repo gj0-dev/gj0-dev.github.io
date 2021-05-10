@@ -89,7 +89,7 @@ h4 {
 .cert {
   width: 400px;
   height: 300px;
-  padding: 5px;
+  object-fit: cover;
 }
 
 .stack {
@@ -261,8 +261,4 @@ a:hover {
 
 .wdb {
   padding: 5px;
-}
-
-.about {
-  border: none;
 }
