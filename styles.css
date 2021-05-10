@@ -36,6 +36,14 @@ body {
   animation-fill-mode: backwards;
 }
 
+#biohead {
+  /* padding: 5px; */
+  animation: fadeIn;
+  animation-duration: 1.5s;
+  animation-delay: 3.1s;
+  animation-fill-mode: backwards;
+}
+
 #bio {
   padding: 5px;
   animation: fadeIn;
@@ -44,15 +52,9 @@ body {
   animation-fill-mode: backwards;
 }
 
-#biohead {
-  animation: fadeIn;
-  animation-duration: 1.5s;
-  animation-delay: 3.1s;
-  animation-fill-mode: backwards;
-}
-
 #stack,
-#intro {
+#intro,
+#bio {
   padding: 5px;
 }
 
@@ -241,19 +243,6 @@ a:hover {
   animation-delay: 7.9s;
   animation-fill-mode: backwards;
 }
-
-
-
-@keyframes example {
-  from {
-    font-size: 14px;
-  }
-
-  to {
-    font-size: 30px;
-  }
-}
-
 
 .wdb {
   padding: 5px;
