@@ -6,46 +6,35 @@ body {
   color: white;
 }
 
-.namefont:hover {
+.namefont:hover,
+a:hover {
   color: blueviolet;
 }
 
-/* Page content */
-.content {
-  padding: 16px;
+.introx,
+#biohead {
+  animation: fadeIn;
+  animation-duration: 0.7s;
+  animation-fill-mode: backwards;
 }
 
 #intro1 {
-  animation: fadeIn;
-  animation-duration: 0.7s;
   animation-delay: 1s;
-  animation-fill-mode: backwards;
 }
 
 #intro2 {
-  animation: fadeIn;
-  animation-duration: 0.7s;
   animation-delay: 1.7s;
-  animation-fill-mode: backwards;
 }
 
 #intro3 {
-  animation: fadeIn;
-  animation-duration: 0.7s;
   animation-delay: 2.4s;
-  animation-fill-mode: backwards;
 }
 
 #biohead {
-  /* padding: 5px; */
-  animation: fadeIn;
-  animation-duration: 1.5s;
   animation-delay: 3.1s;
-  animation-fill-mode: backwards;
 }
 
 #bio {
-  padding: 5px;
   animation: fadeIn;
   animation-duration: 1.5s;
   animation-delay: 3.1s;
@@ -76,18 +65,9 @@ label {
   padding: 2px;
 }
 
-h1,
-h2,
-h3,
 h4 {
   color: blueviolet;
   font-family: 'B612', sans-serif;
-}
-
-.cert {
-  width: 400px;
-  height: 300px;
-  object-fit: cover;
 }
 
 .stack {
@@ -97,10 +77,6 @@ h4 {
 .namefont {
   font-family: 'B612', sans-serif;
   padding-left: 7px
-}
-
-a:hover {
-  color: blueviolet;
 }
 
 .fade-in-image {
@@ -161,89 +137,46 @@ a:hover {
   }
 }
 
-.stack li::marker {
-  animation: slideup;
-  animation-duration: 0.3s;
+li {
+  animation: fadeIn;
+  animation-duration: 0.5s;
   animation-fill-mode: backwards;
-}
-
-.stack li:nth-child(1)::marker {
-  animation-delay: 4.9s;
-}
-
-.stack li:nth-child(2)::marker {
-  animation-delay: 5.4s;
-}
-
-.stack li:nth-child(3)::marker {
-  animation-delay: 5.9s;
-}
-
-.stack li:nth-child(4)::marker {
-  animation-delay: 6.4s;
-}
-
-.stack li:nth-child(5)::marker {
-  animation-delay: 6.9s;
-}
-
-.stack li:nth-child(6)::marker {
-  animation-delay: 7.4s;
-}
-
-.stack li:nth-child(7)::marker {
-  animation-delay: 7.9s;
 }
 
 .li1 {
-  animation: fadeIn;
-  animation-duration: 0.5s;
   animation-delay: 4.9s;
-  animation-fill-mode: backwards;
 }
 
 .li2 {
-  animation: fadeIn;
-  animation-duration: 0.5s;
   animation-delay: 5.4s;
-  animation-fill-mode: backwards;
 }
 
 .li3 {
-  animation: fadeIn;
-  animation-duration: 0.5s;
   animation-delay: 5.9s;
-  animation-fill-mode: backwards;
 }
 
 .li4 {
-  animation: fadeIn;
-  animation-duration: 0.5s;
   animation-delay: 6.4s;
-  animation-fill-mode: backwards;
 }
 
 .li5 {
-  animation: fadeIn;
-  animation-duration: 0.5s;
   animation-delay: 6.9s;
-  animation-fill-mode: backwards;
 }
 
 .li6 {
-  animation: fadeIn;
-  animation-duration: 0.5s;
   animation-delay: 7.4s;
-  animation-fill-mode: backwards;
 }
 
 .li7 {
-  animation: fadeIn;
-  animation-duration: 0.5s;
   animation-delay: 7.9s;
-  animation-fill-mode: backwards;
 }
 
 .wdb {
   padding: 5px;
+}
+
+.cert {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
 }
