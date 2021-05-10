@@ -6,10 +6,6 @@ body {
   color: white;
 }
 
-.navbar {
-  border-color: blueviolet;
-}
-
 .namefont:hover {
   color: blueviolet;
 }
@@ -55,7 +51,8 @@ body {
   animation-fill-mode: backwards;
 }
 
-#stack {
+#stack,
+#intro {
   padding: 5px;
 }
 
@@ -65,10 +62,6 @@ body {
   animation-duration: 0.3s;
   animation-delay: 4s;
   animation-fill-mode: backwards;
-}
-
-.intro {
-  padding: 5px;
 }
 
 label {
@@ -97,10 +90,6 @@ h4 {
   width: 400px;
   height: 300px;
   padding: 5px;
-}
-
-hr {
-  color: #84e22b;
 }
 
 .stack {
