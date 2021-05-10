@@ -72,10 +72,6 @@ label {
   width: 100px;
   height: 100px;
   padding: 2px;
-  border: 2.2px solid blueviolet;
-  border-radius: 50px;
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
 }
 
 h1,
