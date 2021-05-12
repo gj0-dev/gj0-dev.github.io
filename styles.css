@@ -19,6 +19,14 @@ a:hover,
   animation-fill-mode: backwards;
 }
 
+#intro {
+  animation: fadeIn;
+  animation-duration: 1.5s;
+  animation-delay: 1s;
+  animation-fill-mode: backwards;
+
+}
+
 #intro1 {
   animation-delay: 1s;
 }
