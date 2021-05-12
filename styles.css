@@ -44,12 +44,15 @@ a:hover,
 
 #stack,
 #intro,
-#bio {
+#bio,
+#intro2,
+#intro3 {
   padding: 5px;
 }
 
 
-#stackhead {
+#stackhead,
+#stack {
   animation: fadeIn;
   animation-duration: 0.3s;
   animation-delay: 4s;
