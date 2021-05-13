@@ -1,7 +1,7 @@
 body {
   background-color: black;
   /* #303336 */
-  font-family: 'B612', sans-serif;
+  font-family: 'Cabin', sans-serif;
   padding: 20px;
   color: white;
 }
@@ -79,7 +79,7 @@ label {
 
 h4 {
   color: blueviolet;
-  font-family: 'B612', sans-serif;
+  font-family: 'Cabin', sans-serif;
 }
 
 .stack {
@@ -87,7 +87,7 @@ h4 {
 }
 
 .namefont {
-  font-family: 'B612', sans-serif;
+  font-family: 'b612', sans-serif;
   padding-left: 7px
 }
 
