@@ -53,7 +53,8 @@ a:hover {
 #intro,
 #bio,
 #intro2,
-#intro3 {
+#intro3,
+.footer {
   padding: 5px;
 }
 
