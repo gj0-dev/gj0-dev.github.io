@@ -7,8 +7,7 @@ body {
 }
 
 .namefont:hover,
-a:hover,
-  {
+a:hover {
   color: blueviolet;
 }
 
