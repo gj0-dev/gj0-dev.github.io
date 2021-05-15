@@ -52,10 +52,7 @@ a:hover {
 
 #stack,
 #intro,
-#bio,
-#intro2,
-#intro3,
-  {
+#bio {
   padding: 5px;
 }
 
@@ -84,7 +81,7 @@ h4 {
 }
 
 .stack {
-  list-style: circle outside none;
+  list-style: none outside none;
 }
 
 .namefont {
@@ -150,7 +147,7 @@ h4 {
   }
 }
 
-li {
+/* li {
   animation: fadeIn;
   animation-duration: 0.5s;
   animation-fill-mode: backwards;
@@ -182,7 +179,7 @@ li {
 
 .li7 {
   animation-delay: 7.9s;
-}
+} */
 
 .wdb {
   padding: 5px;
