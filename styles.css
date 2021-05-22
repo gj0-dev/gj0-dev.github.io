@@ -16,8 +16,7 @@ a:hover {
   border: none;
 }
 
-.introx,
-#biohead {
+.introx {
   animation: fadeIn;
   animation-duration: 0.7s;
   animation-fill-mode: backwards;
@@ -44,13 +43,13 @@ a:hover {
 }
 
 #biohead {
-  animation-delay: 3.1s;
   color: blueviolet;
 }
 
-#bio {
+#bio,
+#biohead {
   animation: fadeIn;
-  animation-duration: 1.5s;
+  animation-duration: 0.5s;
   animation-delay: 3.1s;
   animation-fill-mode: backwards;
 }
@@ -162,6 +161,9 @@ ul {
   min-width: 100%;
   object-fit: cover;
   vertical-align: bottom;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 
