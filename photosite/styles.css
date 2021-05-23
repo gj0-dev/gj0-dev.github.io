@@ -105,3 +105,16 @@
  .fa-camera {
      color: white;
  }
+
+ .footer {
+     text-align: center;
+ }
+
+ .social-icon {
+     margin: 20px 10px;
+ }
+
+ #copyright {
+     color: white;
+     font-family: 'Cabin', sans-serif;
+ }
