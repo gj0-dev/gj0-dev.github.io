@@ -1,6 +1,9 @@
 body {
   background-color: black;
-  /* #303336 */
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(".\\images\\bg-int.jpeg");
+  background-size: cover;
+  background-position: center; */
   font-family: 'Cabin', sans-serif;
   padding: 20px;
   color: white;
