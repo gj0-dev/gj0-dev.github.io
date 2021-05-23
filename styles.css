@@ -170,10 +170,10 @@ ul {
 
 .footer-image {
   padding: 25px;
-  animation: fadeIn;
+  /* animation: fadeIn;
   animation-duration: 0.3s;
   animation-delay: 4s;
-  animation-fill-mode: backwards;
+  animation-fill-mode: backwards; */
 }
 
 .footer {
