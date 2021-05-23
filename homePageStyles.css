@@ -1,0 +1,113 @@
+body {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(".\\images\\bellyrub-bw.jpg");
+    background-size: cover;
+    background-position: center;
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+    font-family: 'Cabin', sans-serif;
+}
+
+main {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+h1 {
+    animation: fadeIn;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-fill-mode: backwards;
+
+}
+
+.profession {
+    animation: fadeIn;
+    animation-delay: 1.5s;
+    animation-duration: 1s;
+    animation-fill-mode: backwards;
+}
+
+.location {
+    animation: fadeIn;
+    animation-delay: 2.5s;
+    animation-duration: 1s;
+    animation-fill-mode: backwards;
+}
+}
+
+
+
+#intro1 {
+    animation-delay: 1s;
+}
+
+#intro2 {
+    animation-delay: 1.7s;
+}
+
+#intro3 {
+    animation-delay: 2.4s;
+}
+
+.fade-in-image {
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+*/
