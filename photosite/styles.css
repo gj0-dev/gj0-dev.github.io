@@ -1,6 +1,10 @@
  body {
      background-color: black;
      padding: 20px;
+     animation: fadeIn;
+     animation-duration: 1.5s;
+     animation-delay: 1s;
+     animation-fill-mode: backwards;
  }
 
  /* navbar */
