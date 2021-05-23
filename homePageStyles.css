@@ -14,20 +14,30 @@ main {
     margin-bottom: auto;
 }
 
-.hello {
-    animation: fadeIn;
-    animation-delay: 2.5s;
-    animation-duration: 3s;
-    animation-fill-mode: backwards;
-}
-
 h1 {
     animation: fadeIn;
     animation-duration: 1.5s;
-    animation-delay: 1s;
+    animation-delay: 0s;
     animation-fill-mode: backwards;
 
 }
+
+.profession {
+    animation: fadeIn;
+    animation-delay: 1.5s;
+    animation-duration: 1s;
+    animation-fill-mode: backwards;
+}
+
+.location {
+    animation: fadeIn;
+    animation-delay: 2.5s;
+    animation-duration: 1s;
+    animation-fill-mode: backwards;
+}
+}
+
+
 
 #intro1 {
     animation-delay: 1s;

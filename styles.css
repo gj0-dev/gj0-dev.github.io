@@ -5,7 +5,12 @@ body {
   padding: 20px;
   color: white;
   text-align: center;
+  animation: fadeIn;
+  animation-duration: 1.5s;
+  animation-delay: 1s;
+  animation-fill-mode: backwards;
 }
+
 
 .namefont:hover,
 a:hover {
@@ -14,9 +19,11 @@ a:hover {
 
 .card {
   border: none;
+  max-width: 40rem;
+  margin: 0 auto;
 }
 
-.introx {
+/* .introx {
   animation: fadeIn;
   animation-duration: 0.7s;
   animation-fill-mode: backwards;
@@ -28,9 +35,9 @@ a:hover {
   animation-delay: 1s;
   animation-fill-mode: backwards;
 
-}
+} */
 
-#intro1 {
+/* #intro1 {
   animation-delay: 1s;
 }
 
@@ -40,19 +47,19 @@ a:hover {
 
 #intro3 {
   animation-delay: 2.4s;
-}
+} */
 
 #biohead {
   color: blueviolet;
 }
 
-#bio,
+/* #bio,
 #biohead {
   animation: fadeIn;
   animation-duration: 0.5s;
   animation-delay: 3.1s;
-  animation-fill-mode: backwards;
-}
+  animation-fill-mode: backwards; */
+/* } */
 
 #stack,
 #intro,
@@ -61,13 +68,13 @@ a:hover {
 }
 
 
-#stackhead,
+/* #stackhead,
 #stack {
   animation: fadeIn;
   animation-duration: 0.3s;
   animation-delay: 4s;
   animation-fill-mode: backwards;
-}
+} */
 
 label {
   color: white;
@@ -94,13 +101,13 @@ ul {
   padding-left: 7px
 }
 
-.fade-in-image {
+/* .fade-in-image {
   animation: fadeIn 3s;
   -webkit-animation: fadeIn 3s;
   -moz-animation: fadeIn 3s;
   -o-animation: fadeIn 3s;
   -ms-animation: fadeIn 3s;
-}
+} */
 
 @keyframes fadeIn {
   0% {
@@ -157,7 +164,7 @@ ul {
 }
 
 .cert {
-  padding: 5px;
+  padding: 0 25px 10px 25px;
 
 }
 
