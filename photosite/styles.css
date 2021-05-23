@@ -9,6 +9,10 @@
 
  /* navbar */
 
+ .navbar {
+     text-align: center;
+ }
+
  .namefont {
      font-family: 'b612', sans-serif;
      padding-left: 7px
