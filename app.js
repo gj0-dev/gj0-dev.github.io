@@ -2,7 +2,7 @@ window.addEventListener('scroll', onScroll);
 
 
 function onScroll(){
-    changeBackground ();
+    window.setInterval("changeBackgroundBack()",100);
     window.setInterval("changeBackgroundBack()",800);
 };
 
