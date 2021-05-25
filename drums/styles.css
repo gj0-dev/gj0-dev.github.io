@@ -9,6 +9,11 @@ body {
   padding: 20px;
 }
 
+.dropdown-menu {
+  text-align: center;
+  border: none;
+}
+
 .namefont:hover,
 a:hover {
   color: blueviolet;

@@ -14,6 +14,11 @@
      text-align: center;
  }
 
+ .dropdown-menu {
+     text-align: center;
+     border: none;
+ }
+
  .namefont {
      font-family: 'b612', sans-serif;
      padding-left: 7px
