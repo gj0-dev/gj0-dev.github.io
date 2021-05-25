@@ -131,7 +131,8 @@ ul {
   margin: 20px 10px;
 }
 
-wdb-image {
-  max-width: 100%;
-  height: auto;
+.wdb-image {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
 }
