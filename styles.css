@@ -1,9 +1,5 @@
 body {
   background-color: black;
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(".\\images\\bg-int.jpeg");
-  background-size: cover;
-  background-position: center; */
   font-family: 'Cabin', sans-serif;
   padding: 20px;
   color: white;
@@ -25,58 +21,15 @@ a:hover {
   margin: 0 auto;
 }
 
-/* .introx {
-  animation: fadeIn;
-  animation-duration: 0.7s;
-  animation-fill-mode: backwards;
-}
-
-#intro {
-  animation: fadeIn;
-  animation-duration: 1.5s;
-  animation-delay: 1s;
-  animation-fill-mode: backwards;
-
-} */
-
-/* #intro1 {
-  animation-delay: 1s;
-}
-
-#intro2 {
-  animation-delay: 1.7s;
-}
-
-#intro3 {
-  animation-delay: 2.4s;
-} */
-
 #biohead {
   color: blueviolet;
 }
-
-/* #bio,
-#biohead {
-  animation: fadeIn;
-  animation-duration: 0.5s;
-  animation-delay: 3.1s;
-  animation-fill-mode: backwards; */
-/* } */
 
 #stack,
 #intro,
 #bio {
   padding: 25px;
 }
-
-
-/* #stackhead,
-#stack {
-  animation: fadeIn;
-  animation-duration: 0.3s;
-  animation-delay: 4s;
-  animation-fill-mode: backwards;
-} */
 
 label {
   color: white;
@@ -107,14 +60,6 @@ ul {
   text-align: center;
   border: none;
 }
-
-/* .fade-in-image {
-  animation: fadeIn 3s;
-  -webkit-animation: fadeIn 3s;
-  -moz-animation: fadeIn 3s;
-  -o-animation: fadeIn 3s;
-  -ms-animation: fadeIn 3s;
-} */
 
 @keyframes fadeIn {
   0% {
@@ -176,10 +121,6 @@ ul {
 
 .footer-image {
   padding: 25px;
-  /* animation: fadeIn;
-  animation-duration: 0.3s;
-  animation-delay: 4s;
-  animation-fill-mode: backwards; */
 }
 
 .footer {
