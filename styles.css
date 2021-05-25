@@ -137,3 +137,11 @@ ul {
   max-width: 600px;
   margin: 0 auto;
 }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .card {
+    border: none;
+    margin: 0 auto;
+    max-width: 40vh;
+  }
+}
