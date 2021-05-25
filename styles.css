@@ -106,6 +106,7 @@ ul {
 
 .dropdown-menu {
   text-align: center;
+  border: none;
 }
 
 /* .fade-in-image {
