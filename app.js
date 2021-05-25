@@ -1,16 +1,16 @@
-window.addEventListener('scroll', onScroll);
+// window.addEventListener('scroll', onScroll);
 
 
-function onScroll(){
-    changeBackground();
-    window.setInterval("changeBackgroundBack()",800);
-};
+// function onScroll(){
+//     changeBackground();
+//     window.setInterval("changeBackgroundBack()",800);
+// };
 
-function changeBackground (){
-            document.querySelector("body").style.backgroundColor = '#170140';
-};
+// function changeBackground (){
+//             document.querySelector("body").style.backgroundColor = '#170140';
+// };
 
-function changeBackgroundBack (){
-    document.querySelector("body").style.backgroundColor = '#000000';
-};
+// function changeBackgroundBack (){
+//     document.querySelector("body").style.backgroundColor = '#000000';
+// };
 
