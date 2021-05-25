@@ -146,4 +146,10 @@ ul {
     margin: 0 auto;
     max-width: 40vh;
   }
+
+  .bellyrub {
+    object-fit: cover;
+    padding: 25px;
+    max-height: 20vh;
+  }
 }
