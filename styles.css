@@ -130,3 +130,8 @@ ul {
 .social-icon {
   margin: 20px 10px;
 }
+
+wdb-image {
+  max-width: 100%;
+  height: auto;
+}
