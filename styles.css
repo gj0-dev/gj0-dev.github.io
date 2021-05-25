@@ -19,6 +19,7 @@ a:hover {
 .card {
   border: none;
   margin: 0 auto;
+  max-width: 80vh;
 }
 
 #biohead {
