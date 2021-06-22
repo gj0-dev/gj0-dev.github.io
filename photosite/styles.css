@@ -1,6 +1,6 @@
  body {
      background-color: black;
-     font-family: 'Cabin', sans-serif;
+     /* font-family: 'Cabin', sans-serif; */
      padding: 20px;
      animation: fadeIn;
      animation-duration: 1.5s;
