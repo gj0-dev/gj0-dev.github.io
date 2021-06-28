@@ -42,6 +42,12 @@ label {
   padding: 2px;
 }
 
+.comptiacert {
+  width: 120px;
+  height: 105px;
+  padding: 2px;
+}
+
 h4 {
   color: blueviolet;
   font-family: 'Cabin', sans-serif;
