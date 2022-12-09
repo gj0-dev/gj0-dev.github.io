@@ -22,13 +22,14 @@ a:hover {
   max-width: 80vh;
 }
 
-#biohead {
+#biohead, #badgehead {
   color: blueviolet;
 }
 
 #stack,
 #intro,
-#bio {
+#bio,
+#badges {
   padding: 25px;
 }
 
